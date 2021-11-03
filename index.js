@@ -21,7 +21,7 @@ nocache('./kira.js', module => console.log(color('|TRM|'), color(`${module} Upda
 
 async function starts() {
 kira.autoReconnect = ReconnectMode.onConnectionLost
-    kira.version = [2, 2119, 6]
+    kira.version = [2, 2140, 12]
     kira.logger.level = 'warn'
     kira.browserDescription = ['Kira-Master','Firefox','3.0']
     await sleep(10000)
